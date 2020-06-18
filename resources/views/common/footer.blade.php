@@ -28,9 +28,9 @@
             </div>
             <div class="col-md-3 d-flex flex-column py-4">
                 <a class="btn btn-link btn-sm color-8 pl-0" href="#">Online Transcript</a>
-                <a class="btn btn-link btn-sm color-8 pl-0" href="#">SUST Journal</a>
-                <a class="btn btn-link btn-sm color-8 pl-0" href="#">SUST Website</a>
-                <a class="btn btn-link btn-sm color-8 pl-0" href="#">CSE Website</a>
+                <a class="btn btn-link btn-sm color-8 pl-0" href="#"> Journal</a>
+                <a class="btn btn-link btn-sm color-8 pl-0" href="#"> Website</a>
+                <a class="btn btn-link btn-sm color-8 pl-0" href="#"> Website</a>
             </div>
         </div>
     </div>

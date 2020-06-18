@@ -17,13 +17,13 @@ class AppServiceProvider extends ServiceProvider
     {
         Schema::defaultStringLength(191);
 
-        $home = HomeContent::first();
+        // $home = HomeContent::first();
 
-        view()->composer(['layouts.master', 'layouts.master-auth'], function($view) use ($home)  {
-        $view
-            ->with('home', $home);
+        // view()->composer(['layouts.master', 'layouts.master-auth'], function($view) use ($home)  {
+        // $view
+        //     ->with('home', $home);
             
-        });
+        // });
 
     }
 

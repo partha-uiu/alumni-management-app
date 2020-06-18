@@ -17,8 +17,8 @@ class InstitutionsTableSeeder extends Seeder
 
         Institution::insert([
             [
-                'name' => 'Shahjalal University of Science and Technology (SUST)',
-                'address' => 'Akhalia,Sylhet,Bangladesh',
+                'name' => 'University of Bangladesh',
+                'address' => 'Road-8,house-10,Dhaka',
                 'created_at' => Carbon::now()->format('Y-m-d h:i:s'),
                 'updated_at' => Carbon::now()->format('Y-m-d h:i:s')
             ]
