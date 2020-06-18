@@ -1,0 +1,195 @@
+/* write your custom styles here */
+/********** mailbox zinput **********/
+.mailbox-wrapper .zinput label:before, .mentor-wrapper .zinput label:before {
+    width: 20px;
+    height: 20px;
+}
+
+.mailbox-wrapper .zinput label, .mentor-wrapper .zinput label {
+    padding-left: 1.5rem;
+}
+
+.mailbox-wrapper .zinput svg, .mentor-wrapper .zinput svg {
+    width: 9px;
+    height: 9px;
+    top: 47%;
+    -ms-transform: translateY(-65%);
+    -webkit-transform: translateY(-65%);
+    transform: translateY(-65%);
+    left: 6px;
+}
+
+.form-elements-wrapper .zinput label {
+    display: inline-block;
+    position: relative;
+    padding-left: 3rem;
+    cursor: pointer;
+    transition: color 0.2s ease-in-out;
+}
+
+/********** end of mailbox zinput **********/
+/********** mailbox--inbox **********/
+.list-mail li.unread {
+    background: #fafafa;
+}
+
+/********** end of mailbox--inbox **********/
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImN1c3RvbS5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLG1DQUFtQztBQUluQyxzQ0FBc0M7QUFFdEM7RUFFRSxZQUFZO0VBQ1osYUFBYTtDQUNiOztBQUpGO0VBT0UscUJBQXFCO0NBQ3JCOztBQVJGO0VBV0UsV0FBVztFQUNYLFlBQVk7RUFDWixTQUFTO0VBQ1QsZ0NBQXlCO0VBQ3pCLG9DQUFxQjtFQUFyQiw0QkFBcUI7RUFDckIsVUFBVTtDQUNWOztBQUdGO0VBRUssc0JBQXNCO0VBQ3RCLG1CQUFtQjtFQUNuQixtQkFBbUI7RUFDbkIsZ0JBQWdCO0VBQ2hCLG1DQUFtQztDQUN0Qzs7QUFHRiw2Q0FBNkM7QUFHN0Msc0NBQXNDO0FBRXRDO0VBRUUsb0JBQW9CO0NBQ3BCOztBQUdGLDZDQUE2QyIsImZpbGUiOiJjdXN0b20uY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLyogd3JpdGUgeW91ciBjdXN0b20gc3R5bGVzIGhlcmUgKi9cblxuXG5cbi8qKioqKioqKioqIG1haWxib3ggemlucHV0ICoqKioqKioqKiovXG5cbi5tYWlsYm94LXdyYXBwZXIsIC5tZW50b3Itd3JhcHBlcntcblx0LnppbnB1dCBsYWJlbDpiZWZvcmUge1xuXHRcdHdpZHRoOiAyMHB4O1xuXHRcdGhlaWdodDogMjBweDtcblx0fVxuXG5cdC56aW5wdXQgbGFiZWx7XG5cdFx0cGFkZGluZy1sZWZ0OiAxLjVyZW07XG5cdH1cblxuXHQuemlucHV0IHN2ZyB7XG5cdFx0d2lkdGg6IDlweDtcblx0XHRoZWlnaHQ6IDlweDtcblx0XHR0b3A6IDQ3JTtcblx0XHQtbXMtdHJhbnNmb3JtOiB0cmFuc2xhdGVZKC02NSUpO1xuXHRcdHRyYW5zZm9ybTogdHJhbnNsYXRlWSgtNjUlKTtcblx0XHRsZWZ0OiA2cHg7XG5cdH1cbn1cblxuLmZvcm0tZWxlbWVudHMtd3JhcHBlcntcblx0LnppbnB1dCBsYWJlbCB7XG4gICAgXHRkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG5cdCAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG5cdCAgICBwYWRkaW5nLWxlZnQ6IDNyZW07XG5cdCAgICBjdXJzb3I6IHBvaW50ZXI7XG5cdCAgICB0cmFuc2l0aW9uOiBjb2xvciAwLjJzIGVhc2UtaW4tb3V0O1xuXHR9XG59XG5cbi8qKioqKioqKioqIGVuZCBvZiBtYWlsYm94IHppbnB1dCAqKioqKioqKioqL1xuXG5cbi8qKioqKioqKioqIG1haWxib3gtLWluYm94ICoqKioqKioqKiovXG5cbi5saXN0LW1haWx7XG5cdGxpLnVucmVhZHtcblx0XHRiYWNrZ3JvdW5kOiAjZmFmYWZhO1xuXHR9XG59XG5cbi8qKioqKioqKioqIGVuZCBvZiBtYWlsYm94LS1pbmJveCAqKioqKioqKioqL1xuIl19 */
+.req-red {
+    color: red;
+}
+
+.hv-cursor-pointer {
+    cursor: pointer;
+}
+
+.w-78 {
+    width: 78% !important;
+}
+
+.h-46 {
+    height: 46px !important;
+}
+
+.filter-bg {
+    background-color: #f2f2f2;
+}
+
+.wrapper-row {
+    width: 920px;
+    margin-left: 0px;
+    overflow: hidden;
+    padding: 10px;
+}
+
+select.form-control:not([size]):not([multiple]) {
+    height: calc(2.6rem + 2px)
+}
+
+.h-200 {
+    height: 200px;
+}
+
+/*dropdown*/
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+.login-menu-dropdown {
+    right: 0 !important;
+    left: auto !important;
+    width: 300px;
+}
+
+/**
+ * @Author Anindya
+ */
+.h-full-non-fixed-nav {
+    min-height: 88vh;
+}
+
+.form-control-feedback {
+    font-size: .9rem;
+}
+
+.znav-oxford .dropdown {
+    background-color: #fafafa !important;
+}
+
+.znav-container .dropdown {
+    color: #000;
+}
+
+.login-menu-dropdown .form-check-label {
+    padding-left: 0;
+}
+
+.auth-menu-dropdown a:not(.btn) {
+    color: #222222;
+}
+
+.auth-menu-dropdown a:not(.btn):active, .auth-menu-dropdown a:not(.btn):hover, .auth-menu-dropdown a:not(.btn):focus, .auth-menu-dropdown a:not(.btn):active:focus {
+    color: #000000;
+}
+
+.forget-password {
+    padding: 0 !important;
+    color: #000 !important;
+}
+
+@media (max-width: 992px) {
+    .login-menu-dropdown {
+        padding: 10px 0 !important;
+    }
+}
+
+.signup-bg {
+    background-color: rgba(0, 0, 0, 0.27);
+}
+
+.alumni-feed-categories .list-group-item i {
+    font-size: 24px;
+}
+
+.alumni-feed-categories .list-group-item {
+    padding: 15px;
+}
+
+.alumni-feed-categories .list-group-item.active {
+    color: #ffffff;
+}
+
+.alumni-feed-categories .list-group-item.active:hover {
+    color: #ffffff;
+}
+.tabs.events-tab .nav-bar .nav-bar-item.active, .tabs.edit-profile .nav-bar .nav-bar-item.active {
+    color: #002147;
+}
+.tabs.events-tab .nav-bar .indicator, .tabs.edit-profile .nav-bar .indicator {
+    background-color: #002147;
+}

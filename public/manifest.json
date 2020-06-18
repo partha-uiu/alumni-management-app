@@ -1,0 +1,15 @@
+{
+  "short_name": "Alumni Connect",
+  "name": "Alumni Connect",
+  "icons": [
+    {
+      "src":"alumni-connect-icon.png",
+      "sizes": "196x196",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/?utm_source=homescreen",
+  "background_color": "#FFFFFF",
+  "theme_color": "#FFFFFF",
+  "display": "standalone"
+}

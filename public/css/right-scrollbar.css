@@ -1,0 +1,55 @@
+
+.scroll-up {
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    background: white;
+    color: black;
+    border: 1px solid #000000;
+    display: block;
+}
+
+.scroll-up .scroll-content {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    line-height: 25px;
+    padding-top: 20px;
+}
+
+.scroll-content a:hover {
+    text-decoration: none;
+}
+
+/* Move it (define the animation) */
+@-moz-keyframes scroll-up {
+    0% {
+        -moz-transform: translateY(100%);
+    }
+    100% {
+        -moz-transform: translateY(-100%);
+    }
+}
+
+@-webkit-keyframes scroll-up {
+    0% {
+        -webkit-transform: translateY(100%);
+    }
+    100% {
+        -webkit-transform: translateY(-100%);
+    }
+}
+
+@keyframes scroll-up {
+    0% {
+        -moz-transform: translateY(100%); /* Browser bug fix */
+        -webkit-transform: translateY(100%); /* Browser bug fix */
+        transform: translateY(100%);
+    }
+    100% {
+        -moz-transform: translateY(-100%); /* Browser bug fix */
+        -webkit-transform: translateY(-100%); /* Browser bug fix */
+        transform: translateY(-100%);
+    }
+}
+
